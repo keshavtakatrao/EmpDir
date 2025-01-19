@@ -73,7 +73,7 @@ app.get('/seed_db', async (req, res) => {
   return res.json({ message: 'Database seeded!' });
 });
 
-app.use("/employee", employeeRoutes);
+app.use("/employees", employeeRoutes);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);

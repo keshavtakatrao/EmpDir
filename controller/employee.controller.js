@@ -149,5 +149,6 @@ module.exports = {
     getEmployeesByRoleController,
     getEmployeesSortedByNameController,
     addEmployeeController,
-    editEmployeeController
+    editEmployeeController,
+    deleteEmployeeController
 }
